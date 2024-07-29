@@ -1,0 +1,73 @@
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+p {
+    color: grey;
+    font-family: Arial;
+    text-align: center;
+    font-size: 75%;
+}
+
+.container {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.confirmation {
+    text-align: center;
+}
+
+.checkmark {
+    color: #4285f4;
+    font-size: 48px;
+    margin-bottom: 20px;
+}

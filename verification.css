@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-fields input {
+    width: 48%;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.api-logos {
+    display: flex;
+
+}
+
+.confirmation-container {
+    text-align: center;
+}
+
+.checkmark {
+    color: #4285f4;
+    font-size: 64px;
+    background-color: #e6f3ff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}

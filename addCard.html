@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Card</title>
+    <link rel="stylesheet" href="addCard.css">
+</head>
+<body>
+    <div class="container">
+        <br><button onclick="window.location.href='emptyAccount.html'">Back</button>
+        <header>
+            <h2>Add Card</h2>
+        </header>
+        <main>
+            <p class="instructions">To add a new card, please fill out the fields below completely to add your card successfully.</p>
+            <form id="addCardForm">
+                <div class="form-group">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="text" id="cardNumber" placeholder="0123-4567-0000-0000">
+                </div>
+                <div class="form-group">
+                    <label for="holderName">Holder's Name</label>
+                    <input type="text" id="holderName" placeholder="William Smith">
+                </div>
+                <div class="form-group">
+                    <label for="expiryDate">Expiry Date</label>
+                    <input type="text" id="expiryDate" placeholder="11/25">
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" placeholder="000">
+                </div>
+                <button type="submit" class="confirm-btn">Confirm</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

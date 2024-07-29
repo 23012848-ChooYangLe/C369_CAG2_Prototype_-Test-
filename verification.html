@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yokai Remit Account Verification</title>
+    <link rel="stylesheet" href="verification.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Account Verification</h1>
+        <p>Please fill in your information details in the form below to verify your account to have full access our services:</p>
+        <form id="verificationForm">
+            <div class="name-fields">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <input type="text" placeholder="NRIC" required>
+            <input type="text" placeholder="Address" required>
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Phone No." required>
+            <button type="submit" onclick="window.location.href='veriConfirmation.html'">Verify</button>
+        </form>
+        <div style="text-align: center;color: grey;padding-top: 12px;padding-bottom: 22px;">OR</div>
+        <div class="api-logos">
+            <!-- <a href="https://login.singpass.gov.sg/main?scope=openid&response_type=code&redirect_uri=https%3A%2F%2Fwww.singpass.gov.sg%2Fhome%2Fui%2Fcallback%2Fauth&state=62fff746-81bc-44d0-bb80-7eeb06f9aaa6&nonce=814b4d9e-f1b9-43a1-9979-f1050d1d1bd5&client_id=ntmRnh1tflHVnWsik9AN1Fn2Cx7X8gVw&pwd_enabled=true" target="_blank">
+                <img src="/images/singpass.png" alt="singpass" style="width: 40%;"></a>
+            <a href="https://customer-portal.core-sgp.jumio.com/#/login?returnUrl=verifications-access-login-page" target="_blank">
+                <img src="/images/jumio.jpg" alt="jumio" style="width: 80%;"></a> -->
+            <a href="/veriConfirmation.html">
+                <img src="/images/singpass.png" alt="singpass" style="width: 40%;"></a>
+            <a href="/veriConfirmation.html">
+                <img src="/images/jumio.jpg" alt="jumio" style="width: 80%;"></a>  
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

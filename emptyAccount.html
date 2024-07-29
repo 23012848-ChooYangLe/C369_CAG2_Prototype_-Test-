@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account Page</title>
+    <link rel="stylesheet" href="emptyAccount.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button id="menuBtn">☰</button>    <!-- Asked ChatGPT for this icon/emoji -->
+            <button id="notificationBtn">🔔</button>    <!-- Asked ChatGPT for this icon/emoji -->
+        </header>
+        <main>
+            <div class="balance">Current Balance:<br>NIL</div>
+            <div class="card-section" id="addCard" onclick="window.location.href='addCard.html'"><b>Tap here to add card</b></div>
+            <div class="transactions">
+                <h3>Incoming Transactions</h3>
+                <p class="see-all">See all</p>
+            </div>
+            <div class="transactions">
+                <h3>Outgoing Transactions</h3>
+                <p class="see-all">See all</p>
+            </div>
+            <div class="transactions">
+                <h3>Other Transactions</h3>
+                <p class="see-all">See all</p>
+                
+            </div>
+        </main>
+    </div>
+    <script src="emptyAccount.js"></script>
+</body>
+</html>
