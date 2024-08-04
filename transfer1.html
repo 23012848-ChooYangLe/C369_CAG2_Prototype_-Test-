@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Transfer</title>
+    <link rel="stylesheet" href="transfer1.css">
+</head>
+<body>
+    <div class="container">
+        <button id="back-button">Back</button>
+        <div class="header">
+            <h1>Money Transfer</h1>
+        </div>
+        <div class="content">
+            <p>Available Balance</p>
+            <h2>$<script>document.write(localStorage.getItem('currentBalance') || '28856.20');</script></h2>    <!-- Asked ChatGPT to help me with this line -->
+            <p>Please enter the receiver's bank account number in below field.</p>
+            <div class="input-container">
+                <input type="text" id="accountNumber" value="271-001234-5">
+                <span class="checkmark">✓</span>   <!-- Asked ChatGPT for this icon/emoji -->
+            </div>
+            <button id="next-button">Next</button>
+        </div>
+    </div>
+    <script src="transfer1.js"></script>
+</body>
+</html>

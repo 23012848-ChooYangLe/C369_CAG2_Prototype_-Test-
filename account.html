@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button id="menuBtn">☰</button>    <!-- Asked ChatGPT for this icon/emoji -->
+            <button id="notificationBtn">🔔</button>    <!-- Asked ChatGPT for this icon/emoji -->
+        </header>
+
+        <div class="balance">
+            Current Balance<br>
+            <span class="balance-amount">$<script>document.write(localStorage.getItem('currentBalance') || '28856.20');</script></span>
+        </div>
+        <div class="card-info">
+            <img src="visa-logo.png" alt="Visa" class="card-logo">
+            <span class="card-number">Master Card **** 6773</span>
+        </div>
+        <div class="transactions">
+            <h3>Incoming Transactions</h3>
+            <p class="see-all"><a href="#">See All ></a></p>
+            <div class="transaction">
+                <div class="user-info">
+                    <img src="/images/sabo.jpg" alt="User 1" class="user-avatar">
+                    <div>
+                        <p class="user-name">Sabo</p>
+                        <p class="transaction-date">25 December 2023</p>
+                    </div>
+                </div>
+                <span class="amount-incoming">+ $856.00</span>
+            </div>
+            <div class="transaction">
+                <div class="user-info">
+                    <img src="/images/vivi.jpg" alt="User 2" class="user-avatar">
+                    <div>
+                        <p class="user-name">Vivi</p>
+                        <p class="transaction-date">02 December 2023</p>
+                    </div>
+                </div>
+                <span class="amount-incoming">+ $623.50</span>
+            </div>
+        </div>
+        <div class="transactions">
+            <h3>Outgoing Transactions</h3>
+            <p class="see-all"><a href="#">See All ></a></p>
+            <div class="transaction">
+                <div class="user-info">
+                    <img src="/images/sanji.jpg" alt="User 3" class="user-avatar">
+                    <div>
+                        <p class="user-name">Sanji</p>
+                        <p class="transaction-date">13 December 2023</p>
+                    </div>
+                </div>
+                <span class="amount-outgoing">- $306.04</span>
+            </div>
+            <div class="transaction">
+                <div class="user-info">
+                    <img src="/images/chopper.jpg" alt="User 4" class="user-avatar">
+                    <div>
+                        <p class="user-name">Chopper</p>
+                        <p class="transaction-date">06 December 2023</p>
+                    </div>
+                </div>
+                <span class="amount-outgoing">- $45.21</span>
+            </div>
+        </div>   
+    </div>
+    <div id="sideMenu" class="side-menu">
+        <div class="SM-user-info">
+            <img src="/images/luffy.jpg" alt="User Avatar" class="SM-user-avatar">
+            <h2>William Smith</h2>
+            <p>william.smith@gmail.com</p>
+        </div>
+        <nav>
+            <a href="index.html" class="active"><span>🏠</span> Home</a>
+            <a href="account.html"><span>👤</span> My Wallet</a>
+            <a href="#"><span>💰</span> Top-up</a>
+            <a href="transfer1.html"><span>↗️</span> Transfer</a>
+            <a href="#"><span>⚙️</span> Settings</a>
+        </nav>
+        <button id="logoutBtn" class="logout-btn">← Log out</button>
+    </div>
+    <script src="account.js"></script>
+</body>
+</html>

@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="login-signup.css">
 </head>
 <body>
-
+    <header>
+        <div class="logo">Yokai Remit</div>
+        <nav>
+            <a href="/index.html">Home</a>
+        </nav>
+    </header>
     <div class="container">
         <h2>Sign Up</h2>
         <form id="signupForm">
             <input type="email" placeholder="Email address" required>
             <input type="password" placeholder="Password" required>
             <input type="password" placeholder="Confirm Password" required>
-            <button type="submit" onclick="window.location.href='suConfirmation.html'">Sign Up</button>
+            <button type="submit" id="signup-btn">Sign Up</button>
         </form>
         <div class="links">
             Already have an account? <a href="login.html">Login</a>
         </div>
 
     </div>
-    <script src="script.js"></script> 
+    <script src="signup.js"></script> 
 </body>
 </html>

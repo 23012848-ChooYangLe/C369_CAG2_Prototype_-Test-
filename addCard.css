@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: lightgrey;
 }
 
 .container {
@@ -20,7 +20,7 @@ header {
 
 .instructions {
     text-align: center;
-    color: #666;
+    color: grey;
     margin-bottom: 20px;
 }
 
@@ -36,12 +36,12 @@ label {
 input {
     width: 94%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid lightgray;
     border-radius: 5px;
     font-size: 16px;
 }
 
-.confirm-btn {
+#confirm-btn {
     display: block;
     width: 100%;
     padding: 15px;

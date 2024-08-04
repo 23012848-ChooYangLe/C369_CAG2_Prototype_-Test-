@@ -15,7 +15,7 @@ body {
     padding-top: 15px;
     padding-bottom: 30px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
     width: 400px;
 }
 
@@ -50,11 +50,15 @@ input, button {
     border-radius: 4px;
 }
 
-button {
+#veriBtn {
     background-color: #4285f4;
     color: white;
     border: none;
     cursor: pointer;
+    padding: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 15px;
 }
 
 .api-logos {

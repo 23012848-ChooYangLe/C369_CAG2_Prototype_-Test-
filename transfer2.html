@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Amount</title>
+    <link rel="stylesheet" href="transfer2.css">
+</head>
+<body>
+    <div class="container">
+        <button id="back-button">Back</button>
+        <div class="header">
+            <h1>Enter amount</h1>
+        </div>
+        <div class="content">
+            <p>Available Balance</p>
+            <h2>$<script>document.write(localStorage.getItem('currentBalance') || '28856.20');</script></h2>
+            <p>Please enter the country you are sending money to and the amount in the below field.</p>
+            <select id="country">
+                <option value="US">United States</option>
+                <option value="UK">United Kingdom</option>
+                <option value="CA">Canada</option>
+                <option value="JP">Japan</option>
+            </select>
+            <div class="amount-input">
+                <input type="number" id="amount" placeholder="Enter Amount">
+                <span>SGD</span>
+            </div>
+            <p id="exrate">Exchange Rate: $1 = USD 0.74</p>
+            <p id="conversion">SGD TO USD</p>
+            <p id="convertedAmount">Amount sending after conversion: 0.00 USD</p>
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="transfer2.js"></script>
+</body>
+</html>

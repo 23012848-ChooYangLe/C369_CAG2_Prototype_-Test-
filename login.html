@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="login-signup.css">
 </head>
 <body>
-    <div class="container">
+    <header>
+        <div class="logo">Yokai Remit</div>
+        <nav>
+            <a href="/index.html">Home</a>
+        </nav>
+    </header>
+    <div class="container" style="text-align: center;">
         <h1>Yokai Remit Login</h1><br><br><br>
         <h2>Account Login</h2>
         <p>PLEASE LOGIN TO CONTINUE TO YOUR ACCOUNT</p><br>
@@ -19,7 +25,7 @@
                 <label for="remember">Remember me</label>
             </div>
             <a href="#" style="text-align: center;">Forgot Password?</a><br>
-            <button type="submit">Log In</button>
+            <button type="submit" onclick="window.location.href='account.html'">Log In</button>
         </form>
         <div class="links">
             No Account Yet?<a href="signup.html">Sign Up</a>

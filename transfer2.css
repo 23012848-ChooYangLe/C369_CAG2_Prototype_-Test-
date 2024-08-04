@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 320px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#back-button {
+    background-color: lightgray;
+    border: none;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.content {
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+select, .amount-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.amount-input {
+    display: flex;
+    align-items: center;
+}
+
+.amount-input input {
+    flex-grow: 0.5;
+    border: none;
+    outline: none;
+    
+}
+
+.amount-input span {
+    padding-left: 10px;
+    color: gray;
+}
+
+#exrate, #conversion, #convertedAmount {
+    margin: 0;
+    
+}
+
+#send-button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+}

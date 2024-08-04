@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0px auto;
+    min-height: 800px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.balance {
+    text-align: left;
+    font-size: 14px;
+    color: gray;
+    margin: 30px 0px 10px 0px;
+}
+
+.balance-amount {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.card-info {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.card-logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.card-number {
+    font-size: 14px;
+    color: dimgray;
+}
+
+.transactions {
+    margin: 30px 0px;
+}
+
+.transactions h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.see-all {
+    color: blue;
+    font-size: 14px;
+    text-align: right;
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.user-name {
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.transaction-date {
+    font-size: 12px;
+    color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+.amount {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.amount-incoming {
+    color: green;
+}
+
+.amount-outgoing {
+    color: red;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0px;
+    left: -280px;
+    width: 280px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.side-menu.open {
+    left: 0px;
+}
+
+.SM-user-info {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.SM-user-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.SM-user-info h2 {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.SM-user-info p {
+    margin: 5px 0px 0px;
+    font-size: 14px;
+    color: #666;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav a.active {
+    color: #4285f4;
+}
+
+nav a span {
+    margin-right: 10px;
+}
+
+.logout-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
